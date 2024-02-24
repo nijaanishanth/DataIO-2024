@@ -37,17 +37,15 @@ mymap = folium.Map(location=[41.881832, -87.623177], zoom_start=10)
 
 # add points to map
 # for index, row in data.iterrows():
-# green = tourist destinations (millenium park, navy pier, museums)
-# blue = shopping areas
-folium.Marker(location=[41.892278, -87.612043], popup='Streeter Dr & Grand Ave', icon=folium.Icon(color='green')).add_to(mymap)
-folium.Marker(location=[41.880958, -87.616743], popup='DuSable Lake Shore Dr & Monroe St', icon=folium.Icon(color='green')).add_to(mymap)
+folium.Marker(location=[41.892278, -87.612043], popup='Streeter Dr & Grand Ave', icon=folium.Icon(color='red')).add_to(mymap)
+folium.Marker(location=[41.880958, -87.616743], popup='DuSable Lake Shore Dr & Monroe St', icon=folium.Icon(color='red')).add_to(mymap)
 folium.Marker(location=[41.9009725, -87.623769], popup='Michigan Ave & Oak St', icon=folium.Icon(color='red')).add_to(mymap)
 folium.Marker(location=[41.911727, -87.626804], popup='DuSable Lake Shore Dr & North Blvd', icon=folium.Icon(color='red')).add_to(mymap)
 folium.Marker(location=[41.912133, -87.634656], popup='Wells St & Concord Ln', icon=folium.Icon(color='red')).add_to(mymap)
 folium.Marker(location=[41.902973, -87.63128], popup='Clark St & Elm St', icon=folium.Icon(color='red')).add_to(mymap)
 folium.Marker(location=[41.8893046666666, -87.6384861666666], popup='Kingsbury St & Kinzie St', icon=folium.Icon(color='red')).add_to(mymap)
-folium.Marker(location=[41.8810317, -87.62408432], popup='Millennium Park', icon=folium.Icon(color='green')).add_to(mymap)
-folium.Marker(location=[41.926277, -87.630834], popup='Theater on the Lake', icon=folium.Icon(color='green')).add_to(mymap)
+folium.Marker(location=[41.8810317, -87.62408432], popup='Millennium Park', icon=folium.Icon(color='red')).add_to(mymap)
+folium.Marker(location=[41.926277, -87.630834], popup='Theater on the Lake', icon=folium.Icon(color='red')).add_to(mymap)
 folium.Marker(location=[41.9029373333333, -87.6347175], popup='Wells St & Elm St', icon=folium.Icon(color='red')).add_to(mymap)
 folium.Marker(location=[41.9181961666666, -87.6361766666666], popup='Clark St & Armitage Ave', icon=folium.Icon(color='red')).add_to(mymap)
 folium.Marker(location=[41.88338, -87.64117], popup='Clinton St & Washington Blvd', icon=folium.Icon(color='red')).add_to(mymap)
